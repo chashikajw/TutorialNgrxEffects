@@ -14,8 +14,7 @@ export function UserDataReducer(state: UserDataState = initialState, action: Use
     case UserdataActions.LOAD_USERDATA: {
       return {
         ...state,
-        loading: true,
-        data: state.data
+        loading: true
       };
     }
 
